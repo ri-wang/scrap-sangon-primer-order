@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+
+.ui-widget-content {
+	border: 1px solid #c1c1c1;
+}
+
+.ui-widget-content a {
+	
+}
+
+.ui-menu .ui-menu-item {
+	position: relative;
+	background-color: #FFF;
+	margin: 0;
+	padding: 3px 1em 3px .4em;
+	cursor: pointer;
+	min-height: 0; /* support: IE7 */
+	list-style-image: url(../images/imagedoc-lightnoise.gif);
+}
+
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-state-focus {
+	border: 1px solid #c1c1c1;
+	background-color:#a3bde1;
+}
